@@ -5,9 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Landing Page</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <section class="container-1">
+        <div class="header">
+            <div class="header-logo">
+                <h2>Header Logo</h2>
+            </div>
+            <div class="header-nav">
+                <ul>
+                    <li><a href="">Header link one</a></li>
+                    <li><a href="">Header link two</a></li>
+                    <li><a href="">Header link three</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="website-info">
+            <div class="left-side">
+                <h2 class="heading">This website is awesome</h2>
+                <p>This website has some subtext that goes under the main title. it's a smaller font and color is lower contrast</p>
+                <button class="sign-up">Sign up</button>
+            </div>
+            <div class="right-side">
+                <img src="data:image/jpeg;base64,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" alt="A door image">
+            </div>
+        </div>
+    </section>
+    <section class="container-2">
+        <div class="part-2">
+                <h2 class="section-heading">Some random information</h2>
+            
+            <div class="more-info">
+                <div class="details" id="detail1">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="details" id="detail2">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="details" id="detail3">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="details" id="detail4">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-3">
+      <div class="part-3">
+        <p class="quote">We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better</p>
+        <p class="writer">~Jeff Bezos</p>
+      </div>
+    </section>
+    <section class="container-4">
+      <div class="part-4">
+        <div class="register">
+            <div class="signup-info">
+                <p>Call to action! It's time!</p>
+                <p>Sign up for our product by licking that button right over there!</p>
+            </div>
+            <div class="signup-button">
+                <button class="sign-up">Sign up</button>
+            </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+        <footer>
+            <p>Copyright @ The Odin Project 2021</p>
+        </footer>
+    </div>
 </body>
 </html>
